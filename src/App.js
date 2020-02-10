@@ -1,10 +1,10 @@
 import React from "react";
 import { TextField, Button } from "@material-ui/core";
-import "./App.css";
-
+import "./app.css";
+//import "./login.css";
 function App() {
   return (
-    <div>
+    <div className="login">
       <form>
         <TextField placeholder="Enter User Name" />
         <br />
@@ -14,7 +14,7 @@ function App() {
           type="password"
         />
         <br />
-        <Button variant="contained" color="primary">
+        <Button variant="contained" color="secondary" type="submit">
           submit
         </Button>
       </form>
